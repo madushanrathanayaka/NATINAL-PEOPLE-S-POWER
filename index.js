@@ -72,7 +72,7 @@ console.log('Bot connected to whatsapp ✅')
 let up = `NATINAL-PEOPLE-S-POWER WHATSAPP BOT CONNECTED SOCCESSFUL ✅\n\nPREFIX:👥◄◇─ ජන බල වේගය යාපහුව ආසනය, කොට්ඨාශ  බල එකමුතුව, *මකුල්පොත*─◇► 🫂
 𝚙𝚘𝚠𝚎𝚛𝚍 𝚋𝚢 : 𝚓𝚊𝚕𝚒𝚢𝚊 𝚖𝚊𝚍𝚞𝚜𝚑𝚊𝚗 𝚛𝚊𝚝𝚑𝚗𝚊𝚢𝚊𝚔𝚊🔮${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `.......IMG URL.........` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/y4jKv8S/Whats-App-Image-2024-09-25-at-20-08-34-2837e528.jpg` }, caption: up })
 
 }
 })
@@ -154,7 +154,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //================================================            
 
 if (config.AUTO_VOICE === 'true') {
-const url = '.....VOICE....'
+const url = '.....VOICE......................................................................................................................'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
