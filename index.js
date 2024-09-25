@@ -69,8 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `NATINAL-PEOPLE-S-POWER WHATSAPP BOT CONNECTED SOCCESSFUL ✅\n\nPREFIX:👥◄◇─ ජන බල වේගය යාපහුව ආසනය, කොට්ඨාශ  බල එකමුතුව, *මකුල්පොත*─◇► 🫂
-𝚙𝚘𝚠𝚎𝚛𝚍 𝚋𝚢 : 𝚓𝚊𝚕𝚒𝚢𝚊 𝚖𝚊𝚍𝚞𝚜𝚑𝚊𝚗 𝚛𝚊𝚝𝚑𝚗𝚊𝚢𝚊𝚔𝚊🔮${prefix}`;
+let up = `NATINAL-PEOPLE-S-POWER WHATSAPP BOT CONNECTED SOCCESSFUL ✅\n\n👥◄◇─ ජන බල වේගය යාපහුව ආසනය, කොට්ඨාශ  බල එකමුතුව, *මකුල්පොත*─◇► 🫂\n\n𝚙𝚘𝚠𝚎𝚛𝚍 𝚋𝚢 : 𝚓𝚊𝚕𝚒𝚢𝚊 𝚖𝚊𝚍𝚞𝚜𝚑𝚊𝚗 𝚛𝚊𝚝𝚑𝚗𝚊𝚢𝚊𝚔𝚊🔮${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/y4jKv8S/Whats-App-Image-2024-09-25-at-20-08-34-2837e528.jpg` }, caption: up })
 
