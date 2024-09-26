@@ -33,14 +33,14 @@ let tex = `
 
 > 06 . දුරකතන අංක :-
 
-*මෙම තොරතුරු පිලිවලින් එවා, (.......................) නැවතත් මෙම සලකුණ ද එවන්න*
+*මෙම තොරතුරු පිලිවලින් එවා, නැවතත් මෙය ද එවන්න (successful)*
 
 > NATINAL-PEOPLE-S-POWER WHATSAPP BOT CREATED BY :- JALIYA MADUSHAN RATHNAYAKE
 
 ╰──────────────◎◎▷`
     
 await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/madushanrathanayaka/voice-md/blob/bd80e78b1ad5ee172bcdb69d6f65c94c3f36ebec/%F0%9F%91%8D.mp3' },
+            audio: { url: 'https://github.com/madushanrathanayaka/voice-md/blob/ea35804b9fd437fd618ef2c462d490cecd73107b/menu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
