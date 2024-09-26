@@ -40,7 +40,7 @@ let tex = `
 ╰──────────────◎◎▷`
     
 await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/madushanrathanayaka/voice-md/blob/ea35804b9fd437fd618ef2c462d490cecd73107b/menu.mp3' },
+            audio: { url: 'https://github.com/madushanrathanayaka/voice-md/blob/main/menu.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
