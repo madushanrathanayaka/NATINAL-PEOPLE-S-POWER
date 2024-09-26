@@ -153,7 +153,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //================================================            
 
 if (config.AUTO_VOICE === 'true') {
-const url = 'https://github.com/madushanrathanayaka/voice-md/blob/75509bc12be60297557d222e6092c365d02ca282/Voice-Raw/NATINAL-PEOPLE-S-POWER'
+const url = 'https://github.com/madushanrathanayaka/voice-md/blob/4447f94a3083e603157485372d1eb5eba37a631a/Voice-Raw/NATINAL-PEOPLE-S-POWER'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
