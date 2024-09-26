@@ -1,12 +1,12 @@
 const {cmd , commands} = require('../command')
 
 cmd({
-    pattern: "❤",
+    pattern: "👍",
     react: "🔮",
     alias: ["panel"],
     desc: "Get bot\'s command list.",
     category: "main",
-    use: '❤',
+    use: '👍',
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -29,12 +29,14 @@ let tex = `
 
 > 04 . ජාතික හැදුනුම් පත් අංකය :-
 
-> 05 . දුරකතන අංක :-
+> 05 . ඔබගේ පැහැදිලි ඡායාරූපයක් :-
+
+> 06 . දුරකතන අංක :-
 
 ╰──────────────◎◎▷`
     
 await conn.sendMessage(from, {
-            audio: { url: '........ovice...........................' },
+            audio: { url: 'https://github.com/madushanrathanayaka/voice-md/blob/bd80e78b1ad5ee172bcdb69d6f65c94c3f36ebec/%F0%9F%91%8D.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
