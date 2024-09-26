@@ -1,8 +1,8 @@
 const {cmd , commands} = require('../command')
 
 cmd({
-    pattern: "menu",
-    react: "🔮",
+    pattern: "list",
+    react: "📜",
     alias: ["panel"],
     desc: "Get bot\'s command list.",
     category: "main",
