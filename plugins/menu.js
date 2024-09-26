@@ -6,7 +6,7 @@ cmd({
     alias: ["panel"],
     desc: "Get bot\'s command list.",
     category: "main",
-    use: '.menu',
+    use: '.list',
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -33,7 +33,7 @@ let tex = `
 
 > 06 . දුරකතන අංක :-
 
-*මෙම තොරතුරු පිලිවලින් එවා, (🤝) නැවතත් මෙම සලකුණ ද එවන්න*
+*මෙම තොරතුරු පිලිවලින් එවා, (.......................) නැවතත් මෙම සලකුණ ද එවන්න*
 
 > NATINAL-PEOPLE-S-POWER WHATSAPP BOT CREATED BY :- JALIYA MADUSHAN RATHNAYAKE
 
